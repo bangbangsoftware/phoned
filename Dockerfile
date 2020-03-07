@@ -39,6 +39,7 @@ RUN ls -ltr ~/android/lineage
 RUN pwd
 RUN repo init -u https://github.com/LineageOS/android.git -b lineage-15.1
 RUN repo sync
+RUN echo "Repo synced"
 
 # Prepare the device-specific code
 WORKDIR ~/android/lineage

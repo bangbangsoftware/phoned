@@ -39,6 +39,10 @@ small {
   padding-left: 30px;
 }
 
+.red {
+    color: #e60606;
+}
+
 a:link {
   color: red;
 }

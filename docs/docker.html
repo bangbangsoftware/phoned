@@ -17,7 +17,22 @@
                 <li>So... I have docker installed, so I'll get an ubuntu image</li>
                 <code> &#8827; docker pull ubuntu</code>
                 <li>All good, now I can use "from ubuntu" in my Dockerfile</li>
-
+                <li>Filled out the <a targer="_blank" href="./Dockerfile">Dockerfile</a> - only few gotcha's with ignorance around ENV and WORKDIR commands</li>
+                <li>I've commented the Docker file in line with the docs titles</li>
+                <li>Not sure what directory the build should be from</li>
+                <code> &#8827; docker build .</code>
+                <li>Seems to be hanging updating the source</li>
+                <code >Step 19/34 : RUN repo sync.... <pre class="red">
+    * [new tag]         android-10.0.0_r18          -> android-10.0.0_r18
+    * [new tag]         android-10.0.0_r17          -> android-10.0.0_r17
+    * [new tag]         android-10.0.0_r16          -> android-10.0.0_r16
+    * [new tag]         android-10.0.0_r15          -> android-10.0.0_r15
+    * [new tag]         android-10.0.0_r14          -> android-10.0.0_r14
+    * [new tag]         android-10.0.0_r13          -> android-10.0.0_r13
+    * [new tag]         android-10.0.0_r12          -> android-10.0.0_r12
+    * [new tag]         android-10.0.0_r11          -> android-10.0.0_r11
+    * [new tag]         android-10.0.0_r10          -> android-10.0.0_r10
+    * [new tag]         android-10.0.0_r1           -> android-10.0.0_r1</pre></code>
             </ul>
         </p>
 
