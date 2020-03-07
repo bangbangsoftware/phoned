@@ -1,0 +1,68 @@
+.countgrid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 3fr;
+  grid-gap: 10px;
+}
+
+body {
+  background: rgb(88, 79, 79);
+  color: #c0b2b2;
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+main {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 60px;
+  color: #ffe3e3;
+}
+
+small {
+  padding-left: 30px;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: blue;
+}
+
+.bingo {
+    color: #e2ff00;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+article {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.cell {
+  text-align: start;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  text-align: right;
+  height: 2.5rem; /* Footer height */
+}
