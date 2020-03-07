@@ -19,6 +19,22 @@ h1 {
   color: #ffe3e3;
 }
 
+h2 {
+  color: #ffe3e3;
+}
+
+code {
+    margin: 10px;
+    padding: 10px;
+    background-color: #1acc21;
+    color: black;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+
 small {
   padding-left: 30px;
 }
@@ -40,7 +56,7 @@ a:active {
 }
 
 .bingo {
-    color: #e2ff00;
+  color: #e2ff00;
 }
 
 p {
